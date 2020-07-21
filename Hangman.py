@@ -65,8 +65,11 @@ print("\nThe rules for this game are pretty simple and the rules are as follows:
 print("\t- Player 1 enters a phrase that they want the other player to guess (text is hidden as typed)")
 print("\t- The locations of the vowels are highlighted with a '#'")
 print("\t- Player 2 keeps guessing alphabets, and every time an incorrect letter is entered, an alphabet will be slashed from 'HANGMAN' as shown on the screen")
-print("The game ends either when Player 2 guesses the phrase correctly (P2 wins) or when all letters of HANGMAN are slashed (P1 wins)\n")
+print("The game ends either when Player 2 guesses the phrase correctly (P2 wins) or when all letters of HANGMAN are slashed (P1 wins)")
+print("Hit ENTER to start playing! \n")
 print("_"*50+"\n")
+
+input()
 
 secret_word = getpass.getpass(prompt="What's the secret phrase?: ").lower()
 
